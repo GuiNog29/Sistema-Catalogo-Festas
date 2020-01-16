@@ -1,0 +1,41 @@
+﻿#mostra-imagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.corpo {
+    margin-top: 100px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.descricao {
+    margin: 20px 0 20px 0;
+}
+
+.invisivel {
+    display: none;
+}
+
+#filtro {
+    margin: 0 0 10px 0;
+}
+
+#li {
+    margin-bottom: 10px
+}
+
+#detalhes {
+    color: #0652DD;
+}
+
+#nomeTema {
+    text-align: center;
+    font-size: 30px;
+}
+

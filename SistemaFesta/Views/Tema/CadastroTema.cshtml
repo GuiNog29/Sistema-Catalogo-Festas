@@ -1,0 +1,143 @@
+﻿@model SistemaFesta.Models.TemaViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Cadastrar Tema</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <link href="~/balao.ico" rel="shortcut icon" />
+
+    <!-- Bootstrap CSS File -->
+    <link href="~/Content/Page_Bootstrap/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="~/Content/Page_Bootstrap/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Content/Page_Bootstrap/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/Content/Page_Bootstrap/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="~/Content/Page_Bootstrap/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/Content/Page_Bootstrap/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="~/Content/Page_Bootstrap/css/style.css" rel="stylesheet">
+    <link href="~/Content/ViewCss/Tema/cadastrotema.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+
+    <!--/ Nav Star /-->
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll" href="#page-top">Escolha Tema</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+                    aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="/Home/Index">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link js-scroll" href="/Tema/ListarTemasParaPessoaJuridica">Temas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="/PessoaJuridica/PerfilPessoaJuridica">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="/Login/Logout">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--/ Nav End /-->
+
+    <div class="container card shadow mb-4 corpo">
+
+        @using (Html.BeginForm("CadastroTema", "Tema", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.HiddenFor(tema => tema.PessoaJuridicaId)
+            <h4>Cadastro Tema</h4><hr />
+
+            <div class="container-fluid row">
+
+                <div class="col-lg-6">
+                    <b>@Html.LabelFor(tema => tema.Nome, "Nome do Tema:")</b>
+                    @Html.EditorFor(tema => tema.Nome, new { htmlAttributes = new { @class = "form-control", @placeholder = "Insira o nome do tema" } })
+                    @Html.ValidationMessageFor(tema => tema.Nome, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-lg-6">
+                    <b>@Html.LabelFor(tema => tema.ImageUpload, "Upload de imagem:")</b>
+                    @Html.TextBoxFor(tema => tema.ImageUpload, new { type = "file", @class = "form-control" })
+                    @Html.ValidationMessageFor(tema => tema.ImageUpload, "", new { @class = "text-danger" })
+                    @Html.ValidationMessage("ImageUpload.vazio", new { @class = "text-danger" })
+                    @Html.ValidationMessage("ImageUpload.sem", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-lg-12 espaco">
+                    <b>@Html.LabelFor(tema => tema.Descricao, "Descrição do Tema:")</b>
+                    @Html.EditorFor(tema => tema.Descricao, new { htmlAttributes = new { @class = "form-control", @placeholder = "Insira uma descrição sobre o tema" } })
+                    @Html.ValidationMessageFor(tema => tema.Descricao, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-lg-12 espaco">
+                    <b>@Html.LabelFor(tema => tema.LinkPedirFesta, "Link solicitar Tema:")</b>
+                    @Html.EditorFor(tema => tema.LinkPedirFesta, new { htmlAttributes = new { @class = "form-control", @placeholder = "Insira o link para solicitar tema" } })
+                    @Html.ValidationMessageFor(tema => tema.LinkPedirFesta, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="col-lg-10 espaco">
+                    <b>@Html.LabelFor(tema => tema.LinkAlbumFacebook, "Link para álbum do Tema:")</b>
+                    @Html.EditorFor(tema => tema.LinkAlbumFacebook, new { htmlAttributes = new { @class = "form-control", @placeholder = "Insira o link do álbum do tema" } })
+                    @Html.ValidationMessageFor(tema => tema.LinkAlbumFacebook, "", new { @class = "text-danger" })
+                </div>
+
+                <div class="form-group espaco">
+                    <div class="col-md-offset-1 col-md-10">
+                        <input type="submit" value="Cadastrar" class="btn btn-success botao-cadastro" /><br />
+                    </div>
+                </div>
+
+            </div>
+        }
+
+        <div class="container-fluid">
+            <a href="/Tema/ListarTemasParaPessoaJuridica/@Model.PessoaJuridicaId" class="btn btn-primary botao-voltar">Voltar</a>
+        </div>
+
+    </div>
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
+
+    <!-- JavaScript Libraries -->
+    <script src="~/Content/Page_Bootstrap/lib/jquery/jquery.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/jquery/jquery-migrate.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/popper/popper.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/easing/easing.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/counterup/jquery.counterup.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/lightbox/js/lightbox.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/typed/typed.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="~/Content/Page_Bootstrap/contactform/contactform.js"></script>
+    <!-- Template Main Javascript File -->
+    <script src="~/Content/Page_Bootstrap/js/main.js"></script>
+
+</body>
+</html>

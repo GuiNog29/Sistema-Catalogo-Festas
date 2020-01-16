@@ -1,0 +1,34 @@
+﻿#page-top {
+    background: #1e272e;
+}
+
+#mostra-imagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpo {
+    margin-top: 100px;
+}
+
+.nomeTema {
+    text-align: center;
+    font-size: 30px;
+}
+
+th, td {
+    text-align: center;
+}
+
+.botao-excluir-tema {
+    float: right;
+    margin-bottom: 40px;
+}
+
+h3 {
+    text-align: center;
+    color: red;
+    margin-top: 5px;
+}

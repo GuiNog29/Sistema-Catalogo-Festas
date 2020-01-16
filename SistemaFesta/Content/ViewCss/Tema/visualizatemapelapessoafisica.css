@@ -1,0 +1,36 @@
+﻿#page-top {
+    background: #1e272e;
+}
+
+#mostra-imagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#link-facebook {
+    padding: 10px;
+}
+
+#link-whatsapp {
+    padding: 10px;
+    float: right;
+}
+
+.overlay-mf {
+    background: #1e272e;
+}
+
+.corpo {
+    margin-top: 100px;
+}
+
+.descricao {
+    margin: 20px 0 20px 0;
+}
+
+#nomeTema {
+    text-align: center;
+    font-size: 30px;
+}

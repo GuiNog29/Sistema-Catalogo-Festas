@@ -1,0 +1,24 @@
+﻿#botao-fornecedores {
+    padding: 13px;
+}
+
+#page-top {
+    background: #1e272e;
+}
+
+#li {
+    margin-bottom: 10px
+}
+
+.text-center {
+    color: #fff;
+}
+
+#contact {
+    display: flex;
+    justify-content: center
+}
+
+.overlay-mf {
+    background: #1e272e;
+}

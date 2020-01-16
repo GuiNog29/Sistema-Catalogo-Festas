@@ -1,0 +1,36 @@
+﻿#page-top {
+    background: #1e272e;
+}
+
+.corpo {
+    margin-top: 100px;
+}
+
+td {
+    text-align: center;
+}
+
+#filtro {
+    margin-bottom: 10px;
+}
+
+#botao-cadastrar-tema {
+    float: right;
+    margin: -10px 0 -10px 0;
+}
+
+#detalhes {
+    color: #FFC312;
+}
+
+#editar {
+    color: #44bd32;
+}
+
+#remover {
+    color: red;
+}
+
+.invisivel {
+    display: none;
+}

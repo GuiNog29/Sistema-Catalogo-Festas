@@ -1,0 +1,106 @@
+﻿@model SistemaFesta.Models.PessoaJuridica
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card shadow mb-4">
+
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Detalhes Colaborador</h6>
+    </div>
+
+    <div class="card-body">
+        <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+
+                <tr>
+                    <th>
+                        @Html.LabelFor(model => model.Nome, "Nome:")
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.Nome)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.LabelFor(model => model.NomeUsuario, "Nome de usuário:")
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.NomeUsuario)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.LabelFor(model => model.NomeEmpresa, "Nome da empresa:")
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.NomeEmpresa)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.LabelFor(model => model.CPF, "CPF:")
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.CPF)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.LabelFor(model => model.Email, "Email:")
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.Email)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.LabelFor(model => model.Senha, "Senha:")
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.Senha)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.LabelFor(model => model.Telefone, "Telefone:")
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.Telefone)
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        @Html.LabelFor(model => model.CNPJ, "CNPJ:")
+                    </th>
+                    <td>
+                        @Html.DisplayFor(model => model.CNPJ)
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    <div>
+        <a href="/Administrador/EditarPessoaJuridicaAdministrador/@Model.Id" class="btn btn-primary botao-voltar-excluir-perfil ">Editar Colaborador</a>
+        <a id="botao-excluir" href="/Administrador/RemoverPessoaJuridicaAdministrador/@Model.Id" class="btn btn-danger" style="float:right">Remover</a>
+    </div>
+
+    <div class="container-fluid">
+        <a href="/Administrador/ControleAcessoAdministrador" class="btn btn-primary botao-voltar">Voltar</a>
+    </div>
+</div>
+
+
+
+
+

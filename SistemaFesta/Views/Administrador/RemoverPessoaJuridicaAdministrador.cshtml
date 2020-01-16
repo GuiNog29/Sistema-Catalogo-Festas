@@ -1,0 +1,83 @@
+﻿@model SistemaFesta.Models.PessoaJuridica
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Tem certeza que deseja excluir este perfil?</h3>
+<div class="card shadow md-4">
+
+    <h4>Perfil Colaborador</h4><hr />
+
+    <dl class="dl-horizontal container">
+
+        <dt>
+            @Html.LabelFor(model => model.Nome, "Nome:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <hr />
+
+        <dt>
+            @Html.LabelFor(model => model.NomeUsuario, "Nome de usuário:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomeUsuario)
+        </dd>
+        <hr />
+
+        <dt>
+            @Html.LabelFor(model => model.NomeEmpresa, "Nome da empresa:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomeEmpresa)
+        </dd>
+        <hr />
+
+        <dt>
+            @Html.LabelFor(model => model.Email, "Email:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <hr />
+
+        <dt>
+            @Html.LabelFor(model => model.CPF, "CPF:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CPF)
+        </dd>
+        <hr />
+
+        <dt>
+            @Html.LabelFor(model => model.CNPJ, "CNPJ:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CNPJ)
+        </dd>
+        <hr />
+
+        <dt>
+            @Html.LabelFor(model => model.Telefone, "Telefone:")
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Telefone)
+        </dd>
+        <hr />
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <a href="/Administrador/ControleAcessoAdministrador" class="btn btn-primary botao-voltar-excluir-perfil">Voltar</a>
+            <input id="botao-excluir" type="submit" value="Excluir Perfil" class="btn btn-danger" />
+        </div>
+    }
+
+</div>
+

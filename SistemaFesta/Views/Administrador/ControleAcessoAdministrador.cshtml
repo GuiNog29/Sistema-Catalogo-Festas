@@ -1,0 +1,58 @@
+﻿@model IList<SistemaFesta.Models.PessoaJuridica>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card shadow mb-4">
+
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">Fornecedores</h6>
+    </div>
+
+    <div class="container">
+        <div class="card-body">
+            <div class="table-responsive">
+                <input id="filtro" type="text" name="filtro" class="form-control col-lg-4" placeholder="Filtre aqui" />
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr class="text-center">
+                            <th>Empresa</th>
+                            <th>Acesso</th>
+                            <th>Editar</th>
+                            <th>Remover</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr class="pessoaJuridica">
+                                <td class="nome">
+                                    <a href="/Administrador/VisualizaPessoaJuridicaAdministrador/@item.Id">@item.NomeEmpresa</a>
+                                </td>
+
+                                <td>
+                                    <div class="check-box-acessso">
+                                        @Html.CheckBoxFor(adm => item.ControleAcesso, new { @disabled = "disabled" })
+                                        <label for="botao-acesso"></label>
+                                    </div>
+                                </td>
+
+                                <td class="icones">
+                                    <a id="icone-editar" href="/Administrador/EditarPessoaJuridicaAdministrador/@item.Id" class="fa fa-user-edit"></a>
+                                </td>
+
+                                <td class="icones">
+                                    <a id="icone-remover" href="/Administrador/RemoverPessoaJuridicaAdministrador/@item.Id" class="fa fa-trash"></a>
+                                </td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+

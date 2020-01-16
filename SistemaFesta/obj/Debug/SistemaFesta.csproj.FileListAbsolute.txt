@@ -1,0 +1,475 @@
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\SistemaFesta.dll.config
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\SistemaFesta.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\SistemaFesta.pdb
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\csc.exe
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\csc.exe.config
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\csc.rsp
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\csi.exe
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\csi.exe.config
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\csi.rsp
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.AppContext.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Console.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.Compression.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Claims.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.ValueTuple.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\vbc.exe
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\vbc.exe.config
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\vbc.rsp
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\VBCSCompiler.exe
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\System.Web.Helpers.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\System.Web.Mvc.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\System.Web.Razor.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Razor.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\System.Web.Razor.xml
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.xml
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Razor.xml
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\System.Web.Helpers.xml
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\System.Web.Mvc.xml
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.csprojAssemblyReference.cache
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.csproj.CopyComplete
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.dll
+C:\Users\Guilherme\source\repos\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.pdb
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\SistemaFesta.dll.config
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\SistemaFesta.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\SistemaFesta.pdb
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\csc.exe
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\csc.exe.config
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\csc.rsp
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\csi.exe
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\csi.exe.config
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\csi.rsp
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.AppContext.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Console.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.Compression.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Claims.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.ValueTuple.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\vbc.exe
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\vbc.exe.config
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\vbc.rsp
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\VBCSCompiler.exe
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Logging.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Options.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Remotion.Linq.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Buffers.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Collections.Immutable.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.ComponentModel.Annotations.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Data.SqlClient.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Interactive.Async.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Memory.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Numerics.Vectors.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Web.Helpers.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Web.Mvc.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Web.Razor.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Razor.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Design.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Logging.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Options.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Remotion.Linq.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Buffers.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Collections.Immutable.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Interactive.Async.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Memory.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Numerics.Vectors.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Web.Razor.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Razor.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Web.Helpers.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\System.Web.Mvc.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.csproj.CopyComplete
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.pdb
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\EntityFramework.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\EntityFramework.SqlServer.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\EntityFramework.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\EntityFramework.SqlServer.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.csprojAssemblyReference.cache
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\AutoMapper.Net4.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\AutoMapper.dll
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\AutoMapper.pdb
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\AutoMapper.xml
+C:\Users\Guilherme\Desktop\Projeto Benner\SistemaFesta\SistemaFesta\bin\AutoMapper.Net4.pdb
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\AutoMapper.Net4.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\SistemaFesta.dll.config
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\SistemaFesta.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\SistemaFesta.pdb
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\csc.exe
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\csc.exe.config
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\csc.rsp
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\csi.exe
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\csi.exe.config
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\csi.rsp
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.AppContext.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Console.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.Compression.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Claims.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.ValueTuple.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\vbc.exe
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\vbc.exe.config
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\vbc.rsp
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\VBCSCompiler.exe
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\AutoMapper.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\EntityFramework.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\EntityFramework.SqlServer.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Logging.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Options.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Remotion.Linq.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Buffers.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Collections.Immutable.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.ComponentModel.Annotations.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Data.SqlClient.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Interactive.Async.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Memory.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Numerics.Vectors.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Web.Helpers.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Web.Mvc.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Web.Razor.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Razor.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\AutoMapper.pdb
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\AutoMapper.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\AutoMapper.Net4.pdb
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\EntityFramework.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\EntityFramework.SqlServer.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Design.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.SqlServer.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Logging.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Options.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Remotion.Linq.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Buffers.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Collections.Immutable.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Interactive.Async.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Memory.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Numerics.Vectors.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Web.Razor.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Razor.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Web.Helpers.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\System.Web.Mvc.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Webpages.resources.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.csproj.CopyComplete
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.dll
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.pdb
+C:\Users\Guilherme\Desktop\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.csprojAssemblyReference.cache
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\AutoMapper.Net4.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\SistemaFesta.dll.config
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\SistemaFesta.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\SistemaFesta.pdb
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\csc.exe
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\csc.exe.config
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\csc.rsp
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\csi.exe
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\csi.exe.config
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\csi.rsp
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.Managed.Core.targets
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.AppContext.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Collections.Immutable.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Console.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.Compression.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.FileSystem.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.IO.Pipes.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Reflection.Metadata.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.AccessControl.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Claims.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Security.Principal.Windows.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.ValueTuple.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.XmlDocument.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.XPath.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\vbc.exe
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\vbc.exe.config
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\vbc.rsp
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\VBCSCompiler.exe
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\roslyn\VBCSCompiler.exe.config
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\AutoMapper.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\EntityFramework.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\EntityFramework.SqlServer.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Design.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Relational.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Caching.Abstractions.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Caching.Memory.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.Binder.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.DependencyInjection.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Logging.Abstractions.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Logging.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Options.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Primitives.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Web.Infrastructure.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Remotion.Linq.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Buffers.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Collections.Immutable.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.ComponentModel.Annotations.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Data.SqlClient.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Diagnostics.DiagnosticSource.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Interactive.Async.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Memory.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Numerics.Vectors.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Web.Helpers.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Web.Mvc.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Web.Razor.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Deployment.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Razor.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\AutoMapper.pdb
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\AutoMapper.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\AutoMapper.Net4.pdb
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\EntityFramework.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\EntityFramework.SqlServer.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Design.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.Relational.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.EntityFrameworkCore.SqlServer.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Caching.Abstractions.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Caching.Memory.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Configuration.Binder.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.DependencyInjection.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Logging.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Logging.Abstractions.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Options.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.Extensions.Primitives.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Remotion.Linq.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Buffers.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Collections.Immutable.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Diagnostics.DiagnosticSource.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Interactive.Async.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Memory.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Numerics.Vectors.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Web.Razor.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Deployment.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Web.Webpages.Razor.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Web.Helpers.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\System.Web.Mvc.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Razor.resources.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Webpages.resources.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Webpages.Deployment.resources.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Webpages.Razor.resources.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Helpers.resources.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\bin\pt-br\System.Web.Mvc.resources.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.csprojAssemblyReference.cache
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.csproj.CopyComplete
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.dll
+E:\SISTEMAFESTAS\SistemaFesta\SistemaFesta\obj\Debug\SistemaFesta.pdb

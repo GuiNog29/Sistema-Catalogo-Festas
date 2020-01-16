@@ -1,0 +1,170 @@
+﻿@model IList<SistemaFesta.Models.Fornecedor>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Fornecedores</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <link href="~/balao.ico" rel="shortcut icon" />
+
+    <!-- Bootstrap CSS File -->
+    <link href="~/Content/Page_Bootstrap/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="~/Content/Page_Bootstrap/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Content/Page_Bootstrap/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/Content/Page_Bootstrap/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="~/Content/Page_Bootstrap/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/Content/Page_Bootstrap/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="~/Content/Page_Bootstrap/css/style.css" rel="stylesheet">
+    <link href="~/Content/ViewCss/PessoaJuridica/listarfonecedoresparacliente.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+
+    <!--/ Nav Star /-->
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll" href="#page-top">Escolha Tema</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+                    aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="/Home/Index">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link js-scroll" href="#">Fornecedores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="/Login/Login">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--/ Nav End /-->
+
+    <div class="card shadow mb-4 corpo">
+
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Fornecedores</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <input id="filtro" type="text" name="filtro" class="form-control col-md-3" placeholder="Filtre aqui" />
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+
+                    <thead>
+                        <tr class="temas">
+                            <th>Empresa</th>
+                            <th>Fornecedor</th>
+                            <th>Email</th>
+                            <th>Contato</th>
+                            <th>Temas</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr class="pessoaJuridica">
+                                <td class="nome">
+                                    @item.NomeEmpresa
+                                </td>
+                                <td>
+                                    @item.Nome
+                                </td>
+                                <td>
+                                    @item.Email
+                                </td>
+                                <td class="temas">
+                                    @item.Telefone
+                                </td>
+                                <td class="temas">
+                                    <a id="link-temas" class="btn btn-primary" href="/Tema/ListarTemasParaPessoaFisica/@item.Id">Temas</a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
+
+    <!--/ Section Contact-Footer Star /-->
+    <section class="paralax-mf footer-paralax bg-image sect-mt4 route">
+        <div class="overlay-mf"></div>
+        <div class="container">
+            <div class="col-sm-12">
+                <h5 class="text-center">Redes sociais do desenvolvedor</h5>
+                <div id="contact" class="box-shadow-full">
+                    <div class="col-md-6 text-center">
+                        <div class="socials">
+                            <ul>
+                                <li id="li"><a href="https://www.facebook.com/guilherme.mathias.9480?ref=bookmarks" target="_blank"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>
+                                <li id="li"><a href="https://api.whatsapp.com/send?phone=5544988184231&text=Ol%C3%A1%20Guilherme" target="_blank"><span class="ico-circle"><i class="fa fa-whatsapp"></i></span></a></li>
+                                <li id="li"><a href="https://instagram.com/guinog_/?hl=pt-br" target="_blank"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>
+                                <li id="li"><a href="https://www.linkedin.com/in/guilherme-mathias-b87150195/" target="_blank"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="copyright-box">
+                            <p class="copyright">&copy; Copyright <strong>Guilherme Mathias</strong>. Todos direitos reservados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!--/ Section Contact-footer End /-->
+
+    <!-- Filtro -->
+    <script src="~/Scripts/JavaScriptProjeto/filtro-fornecedor.js"></script>
+
+    <!-- JavaScript Libraries -->
+    <script src="~/Content/Page_Bootstrap/lib/jquery/jquery.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/jquery/jquery-migrate.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/popper/popper.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/easing/easing.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/counterup/jquery.counterup.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/lightbox/js/lightbox.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/typed/typed.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="~/Content/Page_Bootstrap/contactform/contactform.js"></script>
+    <!-- Template Main Javascript File -->
+    <script src="~/Content/Page_Bootstrap/js/main.js"></script>
+
+</body>
+</html>
+
+

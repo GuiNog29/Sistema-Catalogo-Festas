@@ -1,0 +1,21 @@
+﻿h4 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.corpo {
+    margin-top: 105px;
+}
+
+.botao-editar-perfil {
+    margin: 0 0 10px 37px;
+    float: right;
+}
+
+.botao-voltar {
+    margin-bottom: 10px;
+}
+
+#page-top {
+    background: #1e272e;
+}

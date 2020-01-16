@@ -1,0 +1,142 @@
+﻿@model IList<SistemaFesta.Models.Tema>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Seus Temas</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <link href="~/balao.ico" rel="shortcut icon" />
+
+    <!-- Bootstrap CSS File -->
+    <link href="~/Content/Page_Bootstrap/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="~/Content/Page_Bootstrap/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Content/Page_Bootstrap/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="~/Content/Page_Bootstrap/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="~/Content/Page_Bootstrap/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="~/Content/Page_Bootstrap/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="~/Content/Page_Bootstrap/css/style.css" rel="stylesheet">
+    <link href="~/Content/ViewCss/Tema/listartemasparafornecedor.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+
+    <!--/ Nav Star /-->
+    <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll" href="#page-top">Escolha Tema</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+                    aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="/Home/Index">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link js-scroll" href="#">Temas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="/PessoaJuridica/PerfilPessoaJuridica">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll" href="/Login/Logout">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--/ Nav End /-->
+
+    <div class="card shadow mb-4 corpo">
+
+        <div class="card-header py-3">
+            <a id="botao-cadastrar-tema" href="/Tema/CadastroTema/" class="btn btn-primary">Cadastrar tema</a>
+            <h6 class="m-0 font-weight-bold text-primary">Temas</h6>
+        </div>
+
+        <div class="card-body">
+            <div class="table-responsive">
+                <input id="filtro" type="text" name="filtro" class="form-control col-lg-4" placeholder="Filtre aqui" />
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+
+                    <thead>
+                        <tr class="text-center">
+                            <th>Nome</th>
+                            <th>Detalhes</th>
+                            <th>Editar Tema</th>
+                            <th>Remover Tema</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr class="tema">
+
+                                <td class="nome">
+                                    @item.Nome
+                                </td>
+
+                                <td>
+                                    <a id="detalhes" href="/Tema/VisualizaTemaPelaPessoaJuridica/@item.Id" class="fa fa-plus"></a>
+                                </td>
+
+                                <td>
+                                    <a id="editar" href="/Tema/EditarTema/@item.Id" class="fa fa-edit"></a>
+                                </td>
+
+                                <td>
+                                    <a id="remover" href="/Tema/RemoverTema/@item.Id" class="fa fa-trash"></a>
+                                </td>
+
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <div id="preloader"></div>
+
+    <!-- Filtro -->
+    <script src="~/Scripts/JavaScriptProjeto/filtro-tema.js"></script>
+
+    <!-- JavaScript Libraries -->
+    <script src="~/Content/Page_Bootstrap/lib/jquery/jquery.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/jquery/jquery-migrate.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/popper/popper.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/easing/easing.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/counterup/jquery.counterup.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/lightbox/js/lightbox.min.js"></script>
+    <script src="~/Content/Page_Bootstrap/lib/typed/typed.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="~/Content/Page_Bootstrap/contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="~/Content/Page_Bootstrap/js/main.js"></script>
+
+</body>
+</html>
+

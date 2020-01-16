@@ -1,0 +1,24 @@
+﻿#page-top {
+    background: #1e272e;
+}
+
+.corpo {
+    margin-top: 100px;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.botao-voltar {
+    margin-bottom: 20px;
+}
+
+.botao-cadastro {
+    margin-top: 32px;
+}
+
+.espaco{
+    margin-top: 5px;
+}

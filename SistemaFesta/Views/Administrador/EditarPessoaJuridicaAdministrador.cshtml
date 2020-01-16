@@ -1,0 +1,90 @@
+﻿@model SistemaFesta.Models.PessoaJuridica
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(fornecedor => fornecedor.Id)
+
+    <div class="card shadow md-4">
+        <h4>Editar Fornecedor</h4><hr />
+
+        <div class="row container">
+
+            <div class="col-lg-8">
+                <b>@Html.LabelFor(fornecedor => fornecedor.Nome, "Nome:", htmlAttributes: new { @class = "control-label col-md-5" })</b>
+                @Html.EditorFor(fornecedor => fornecedor.Nome, new { htmlAttributes = new { @class = "form-control", placeholder = "Insira seu nome" } })
+                @Html.ValidationMessageFor(fornecedor => fornecedor.Nome, "", new { @class = "text-danger" })
+            </div>
+
+            <div id="espaco" class="col-lg-3 controle-acesso">
+                <b>@Html.LabelFor(fornecedor => fornecedor.ControleAcesso, "Controle acesso:")</b>
+                @Html.EditorFor(fornecedor => fornecedor.ControleAcesso, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(fornecedor => fornecedor.ControleAcesso, "", new { @class = "text-danger" })
+            </div>
+
+            <div id="espaco" class="col-lg-6">
+                <b>@Html.LabelFor(fornecedor => fornecedor.NomeUsuario, "Nome de usuário:", htmlAttributes: new { @class = "control-label col-md-9" })</b>
+                @Html.EditorFor(fornecedor => fornecedor.NomeUsuario, new { htmlAttributes = new { @class = "form-control", placeholder = "Insira seu nome de usuário" } })
+                @Html.ValidationMessageFor(fornecedor => fornecedor.NomeUsuario, "", new { @class = "text-danger" })
+            </div>
+
+            <div id="espaco" class="col-lg-6">
+                <b>@Html.LabelFor(fornecedor => fornecedor.NomeEmpresa, "Empresa:", htmlAttributes: new { @class = "control-label col-md-5" })</b>
+                @Html.EditorFor(fornecedor => fornecedor.NomeEmpresa, new { htmlAttributes = new { @class = "form-control", placeholder = "Insira o nome da sua empresa" } })
+                @Html.ValidationMessageFor(fornecedor => fornecedor.NomeEmpresa, "", new { @class = "text-danger" })
+            </div>
+
+            <div id="espaco" class="col-lg-6">
+                <b>@Html.LabelFor(fornecedor => fornecedor.CNPJ, "CNPJ:", htmlAttributes: new { @class = "control-label col-md-5" })</b>
+                @Html.EditorFor(fornecedor => fornecedor.CNPJ, new { htmlAttributes = new { @class = "form-control", id = "cnpj", placeholder = "Insira seu CNPJ" } })
+                @Html.ValidationMessageFor(fornecedor => fornecedor.CNPJ, "", new { @class = "text-danger" })
+            </div>
+
+            <div id="espaco" class="col-lg-6">
+                <b>@Html.LabelFor(fornecedor => fornecedor.CPF, "CPF:", htmlAttributes: new { @class = "control-label col-md-5" })</b>
+                @Html.EditorFor(fornecedor => fornecedor.CPF, new { htmlAttributes = new { @class = "form-control", id = "cpf", placeholder = "Insira seu CPF" } })
+                @Html.ValidationMessageFor(fornecedor => fornecedor.CPF, "", new { @class = "text-danger" })
+            </div>
+
+            <div id="espaco" class="col-lg-6">
+                <b>@Html.LabelFor(fornecedor => fornecedor.Telefone, "Telefone:", htmlAttributes: new { @class = "control-label col-md-5" })</b>
+                @Html.EditorFor(fornecedor => fornecedor.Telefone, new { htmlAttributes = new { @class = "form-control", placeholder = "Insira seu telefone de contato", id = "telefone" } })
+                @Html.ValidationMessageFor(fornecedor => fornecedor.Telefone, "", new { @class = "text-danger" })
+            </div>
+
+            <div id="espaco" class="col-lg-6">
+                <b>@Html.LabelFor(fornecedor => fornecedor.Email, "Email:", htmlAttributes: new { @class = "control-label col-md-5" })</b>
+                @Html.EditorFor(fornecedor => fornecedor.Email, new { htmlAttributes = new { @class = "form-control", placeholder = "Insira seu email" } })
+                @Html.ValidationMessageFor(fornecedor => fornecedor.Email, "", new { @class = "text-danger" })
+            </div>
+
+            <div id="espaco" class="col-lg-6">
+                <b>@Html.LabelFor(fornecedor => fornecedor.Senha, "Senha:", htmlAttributes: new { @class = "control-label col-md-5" })</b>
+                @Html.EditorFor(fornecedor => fornecedor.Senha, new { htmlAttributes = new { @class = "form-control", placeholder = "Insira sua senha de acesso" } })
+                @Html.ValidationMessageFor(fornecedor => fornecedor.Senha, "", new { @class = "text-danger" })
+            </div>
+
+            <div id="espaco" class="col-lg-4">
+                <b>@Html.LabelFor(fornecedor => fornecedor.ComfirmarSenha, "Confirmar senha:", htmlAttributes: new { @class = "control-label col-md-9" })</b>
+                @Html.EditorFor(fornecedor => fornecedor.ComfirmarSenha, new { htmlAttributes = new { @class = "form-control", placeholder = "Confirme sua senha" } })
+                @Html.ValidationMessageFor(fornecedor => fornecedor.ComfirmarSenha, "", new { @class = "text-danger" })
+            </div>
+
+            <input id="botao-salvar" class="btn btn-success" type="submit" value="Salvar" />
+
+        </div>
+
+        <div class="container-fluid">
+            <a class="btn btn-primary botao-voltar" href="/Administrador/ControleAcessoAdministrador">Voltar</a>
+        </div>
+
+    </div>
+}
+
+
+

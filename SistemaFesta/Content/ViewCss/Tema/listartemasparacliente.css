@@ -1,0 +1,36 @@
+﻿#page-top {
+    background: #1e272e;
+}
+
+.overlay-mf {
+    background: #1e272e;
+}
+
+.corpo {
+    margin-top: 100px;
+}
+
+.invisivel {
+    display: none;
+}
+
+#filtro {
+    margin: 0 0 10px 0;
+}
+
+#li {
+    margin-bottom: 10px
+}
+
+#detalhes {
+    color: #0652DD;
+}
+
+th, td {
+    text-align: center;
+}
+
+#imagem{
+    width: 100px;
+    height: 100px;
+}
