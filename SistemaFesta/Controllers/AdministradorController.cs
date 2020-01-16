@@ -50,10 +50,10 @@ namespace SistemaFesta.Controllers
 
         //FUNÇÃO PARA EDITAR FORNECEDOR A PARTIR DO SEU ID
         [HttpGet]
-        public ActionResult EditarPessoaJuridicaAdministrador(int id)
+        public ActionResult EditarFornecedorAdministrador(int id)
         {
-            Fornecedor pessoaJuridica = fornecedorDAO.BuscaPorId(id);
-            return View(pessoaJuridica);
+            Fornecedor fornecedor = fornecedorDAO.BuscaPorId(id);
+            return View(fornecedor);
         }
 
         [HttpPost]

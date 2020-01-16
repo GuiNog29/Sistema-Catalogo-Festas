@@ -2181,6 +2181,11 @@
     <Compile Include="DAO\TemaDAO.cs" />
     <Compile Include="Filtros\AutorizacaoAdministradorFilterAttribute.cs" />
     <Compile Include="Filtros\AutorizacaoFornecedorFilterAttribute.cs" />
+    <Compile Include="Migrations\20200116194743_Mac.cs" />
+    <Compile Include="Migrations\20200116194743_Mac.designer.cs">
+      <DependentUpon>20200116194743_Mac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\FestaContextModelSnapshot.cs" />
     <Compile Include="Models\Administrador.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">
@@ -2206,21 +2211,21 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Tema\ListarTemasParaPessoaJuridica.cshtml" />
-    <Content Include="Views\Tema\VisualizaTemaPelaPessoaFisica.cshtml" />
+    <Content Include="Views\Tema\VisualizaTemaPeloFornecedor.cshtml" />
     <Content Include="Views\Tema\EditarTema.cshtml" />
     <Content Include="Views\Fornecedor\EditarFornecedor.cshtml" />
     <Content Include="Views\Login\Login.cshtml" />
     <Content Include="Views\Administrador\ControleAcessoAdministrador.cshtml" />
     <Content Include="Views\Tema\ListarTemasParaPessoaFisica.cshtml" />
-    <Content Include="Views\Fornecedor\ListarFornecedorParaCliente.cshtml" />
-    <Content Include="Views\Administrador\EditarPessoaJuridicaAdministrador.cshtml" />
-    <Content Include="Views\Administrador\CadastroPessoaJuridicaAdministrador.cshtml" />
+    <Content Include="Views\Fornecedor\ListarFornecedoresParaCliente.cshtml" />
+    <Content Include="Views\Administrador\EditarFornecedorAdministrador.cshtml" />
+    <Content Include="Views\Administrador\CadastroFornecedorAdministrador.cshtml" />
     <Content Include="Views\Fornecedor\PerfilFornecedor.cshtml" />
     <Content Include="Views\Tema\RemoverTema.cshtml" />
-    <Content Include="Views\Administrador\RemoverPessoaJuridicaAdministrador.cshtml" />
-    <Content Include="Views\Administrador\VisualizaPessoaJuridicaAdministrador.cshtml" />
+    <Content Include="Views\Administrador\RemoverFornecedorAdministrador.cshtml" />
+    <Content Include="Views\Administrador\VisualizaFornecedorAdministrador.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Tema\VisualizaTemaPelaPessoaJuridica.cshtml" />
+    <Content Include="Views\Tema\VisualizaTemaPeloCliente.cshtml" />
     <Content Include="Views\Usuario\RegularizePagamento.cshtml" />
     <Content Include="Views\Tema\FornecedorInativo.cshtml" />
     <None Include="Web.Debug.config">
@@ -2234,7 +2239,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="Content\ViewCss\Usuario\" />
     <Folder Include="Imagens\" />
-    <Folder Include="Migrations\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

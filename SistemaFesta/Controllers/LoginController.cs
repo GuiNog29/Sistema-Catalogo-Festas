@@ -35,7 +35,7 @@ namespace SistemaFesta.Controllers
                 {
                     Session["usuarioJuridicoLogado"] = fornecedor;
                     Session.Timeout = 10000;
-                    return RedirectToAction("ListarTemasParaPessoaJuridica", "Tema");
+                    return RedirectToAction("ListarTemasParaFornecedor", "Tema");
                 }
                 else
                 {

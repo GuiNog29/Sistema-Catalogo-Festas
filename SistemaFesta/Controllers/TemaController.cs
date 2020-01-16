@@ -14,7 +14,7 @@ namespace SistemaFesta.Controllers
         //###########################################################################################
 
         TemaDAO temaDAO = new TemaDAO();
-        FornecedorDAO pessoaJuridicaDAO = new FornecedorDAO();
+        FornecedorDAO fornecedorDAO = new FornecedorDAO();
         FestaContext contexto = new FestaContext();
 
         //###########################################################################################
@@ -25,10 +25,10 @@ namespace SistemaFesta.Controllers
         [HttpGet]
         public ActionResult CadastroTema()
         {
-            var pj = (Fornecedor)Session["usuarioJuridicoLogado"];
+            var pj = (Fornecedor)Session["usuarioFornecedorLogado"];
             var modelTema = new TemaViewModel()
             {
-                PessoaJuridicaId = pj.Id
+                FornecedorId = pj.Id
             };
             return View("CadastroTema", modelTema);
         }
@@ -58,7 +58,7 @@ namespace SistemaFesta.Controllers
                 tema.Descricao = temaViewModel.Descricao;
                 tema.LinkSolicitarFesta = temaViewModel.LinkPedirFesta;
                 tema.LinkAlbum = temaViewModel.LinkAlbumFacebook;
-                tema.PessoaJuridicaId = temaViewModel.PessoaJuridicaId;
+                tema.FornecedorId = temaViewModel.FornecedorId;
 
                 var imagemNome = String.Format("{0:yyyyMMdd-HHmmssfff}", DateTime.Now);
                 var extensao = System.IO.Path.GetExtension(temaViewModel.ImageUpload.FileName).ToLower();
@@ -96,7 +96,7 @@ namespace SistemaFesta.Controllers
         public ActionResult EditarTema(int id)
         {
             Tema tema = temaDAO.BuscaPorId(id);
-            tema.PessoaJuridicaId = tema.PessoaJuridicaId;
+            tema.FornecedorId = tema.FornecedorId;
             return View(tema);
         }
 
@@ -113,7 +113,7 @@ namespace SistemaFesta.Controllers
                 produto.LinkAlbum = tema.LinkAlbum;
 
                 contexto.SaveChanges();
-                return RedirectToAction("ListarTemasParaPessoaJuridica", "Tema");
+                return RedirectToAction("ListarTemasParaFornecedor", "Tema");
             }
             else
             {
@@ -149,17 +149,17 @@ namespace SistemaFesta.Controllers
         public ActionResult ListarTemasParaPessoaJuridica()
         {
             var pj = (Fornecedor)Session["usuarioJuridicoLogado"];
-            IList<Tema> temas = temaDAO.ListaDoDecorador(pj.Id);
+            IList<Tema> temas = temaDAO.ListaDoFornecedor(pj.Id);
             return View(temas);
         }
 
         //FUNÇÃO PARA LISTAR TEMAS CADASTRADORS PELO FORNECEDOR SELECIONADO PARA CLIENTE
         public ActionResult ListarTemasParaPessoaFisica(int id)
         {
-            var pessoa = pessoaJuridicaDAO.BuscaPorId(id);
+            var pessoa = fornecedorDAO.BuscaPorId(id);
             if (pessoa.ControleAcesso != false)
             {
-                IList<Tema> temas = temaDAO.ListaDoDecorador(pessoa.Id);
+                IList<Tema> temas = temaDAO.ListaDoFornecedor(pessoa.Id);
                 return View(temas);
             }
             else
@@ -172,7 +172,7 @@ namespace SistemaFesta.Controllers
         /*                                  <-- DETALHES -->                                       */
 
         //FUNÇÃO PARA O CLIENTE VER DETALHES DA DECORAÇÃO
-        public ActionResult VisualizaTemaPelaPessoaFisica(int id)
+        public ActionResult VisualizaTemaPeloCliente(int id)
         {
             Tema tema = temaDAO.BuscaPorId(id);
             return View(tema);
@@ -180,7 +180,7 @@ namespace SistemaFesta.Controllers
 
         //FUNÇÃO PARA O CLIENTE VER DETALHES DA DECORAÇÃO
         [AutorizacaoFornecedorFilter]
-        public ActionResult VisualizaTemaPelaPessoaJuridica(int id)
+        public ActionResult VisualizaTemaPeloFornecedor(int id)
         {
             Tema tema = temaDAO.BuscaPorId(id);
             return View(tema);

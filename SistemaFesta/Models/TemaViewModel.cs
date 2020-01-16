@@ -32,6 +32,6 @@ namespace SistemaFesta.Models
         public string LinkAlbumFacebook { get; set; }
 
         // Somente Pessoa Jurídica pode fazer upload de imagem
-        public int PessoaJuridicaId { get; set; }
+        public int FornecedorId { get; set; }
     }
 }

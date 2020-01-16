@@ -13,11 +13,6 @@ namespace SistemaFesta.DAO
             contexto.SaveChanges();
         }
 
-        public void Atualizar(Tema tema)
-        {
-            contexto.Temas.Update(tema);
-            contexto.SaveChanges();
-        }
         public void Remover(Tema tema)
         {
             int id = 0;
@@ -25,14 +20,10 @@ namespace SistemaFesta.DAO
             contexto.Temas.Remove(tema);
             contexto.SaveChanges();
         }
-        public IList<Tema> Lista()
-        {
-            return contexto.Temas.ToList();
-        }
 
-        public IList<Tema> ListaDoDecorador(int idPessoaJuridica)
+        public IList<Tema> ListaDoFornecedor(int fornecedorId)
         {
-            return contexto.Temas.Where(t => t.PessoaJuridicaId == idPessoaJuridica).ToList();
+            return contexto.Temas.Where(t => t.FornecedorId == fornecedorId).ToList();
         }
        
 
@@ -43,7 +34,7 @@ namespace SistemaFesta.DAO
 
         public Tema BuscaPessoaId(int id)
         {
-            return contexto.Temas.Where(x => x.PessoaJuridicaId == id).FirstOrDefault();
+            return contexto.Temas.Where(x => x.FornecedorId == id).FirstOrDefault();
         }
     }
 }

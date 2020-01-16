@@ -28,8 +28,8 @@ namespace SistemaFesta.Models
         public string LinkAlbum { get; set; }
 
         // Pessoa Jurídica pode ter varios temas
-        public int PessoaJuridicaId { get; set; }
-        public virtual Fornecedor PessoaJuridica { get; set; }
+        public int FornecedorId { get; set; }
+        public virtual Fornecedor Fornecedor { get; set; }
 
     }
 }

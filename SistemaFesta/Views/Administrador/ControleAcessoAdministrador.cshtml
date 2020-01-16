@@ -1,4 +1,4 @@
-﻿@model IList<SistemaFesta.Models.PessoaJuridica>
+﻿@model IList<SistemaFesta.Models.Fornecedor>
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
@@ -28,7 +28,7 @@
                         {
                             <tr class="pessoaJuridica">
                                 <td class="nome">
-                                    <a href="/Administrador/VisualizaPessoaJuridicaAdministrador/@item.Id">@item.NomeEmpresa</a>
+                                    <a href="/Administrador/VisualizaFornecedorAdministrador/@item.Id">@item.NomeEmpresa</a>
                                 </td>
 
                                 <td>
@@ -39,11 +39,11 @@
                                 </td>
 
                                 <td class="icones">
-                                    <a id="icone-editar" href="/Administrador/EditarPessoaJuridicaAdministrador/@item.Id" class="fa fa-user-edit"></a>
+                                    <a id="icone-editar" href="/Administrador/EditarFornecedorAdministrador/@item.Id" class="fa fa-user-edit"></a>
                                 </td>
 
                                 <td class="icones">
-                                    <a id="icone-remover" href="/Administrador/RemoverPessoaJuridicaAdministrador/@item.Id" class="fa fa-trash"></a>
+                                    <a id="icone-remover" href="/Administrador/RemoverFornecedorAdministrador/@item.Id" class="fa fa-trash"></a>
                                 </td>
                             </tr>
                         }
