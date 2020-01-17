@@ -49,10 +49,10 @@
                         <a class="nav-link js-scroll" href="/Home/Index">Home</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link js-scroll" href="/Tema/ListarTemasParaPessoaJuridica">Temas</a>
+                        <a class="nav-link js-scroll" href="/Tema/ListarTemasParaFornecedor">Temas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll" href="/PessoaJuridica/PerfilPessoaJuridica">Perfil</a>
+                        <a class="nav-link js-scroll" href="/Fornecedor/PerfilFornecedor">Perfil</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll" href="/Login/Logout">Logout</a>
@@ -73,7 +73,7 @@
 
             <div class="form-horizontal container-fluid">
                 @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-                @Html.HiddenFor(tema => tema.PessoaJuridicaId)
+                @Html.HiddenFor(tema => tema.FornecedorId)
                 @Html.HiddenFor(tema => tema.Id)
                 @Html.HiddenFor(tema => tema.LinkAlbum)
                 @Html.HiddenFor(tema => tema.LinkSolicitarFesta)
@@ -107,7 +107,7 @@
         }
 
         <div class="container-fluid">
-            <a href="/Tema/ListarTemasParaPessoaJuridica/@Model.PessoaJuridicaId" class="btn btn-primary">Voltar</a>
+            <a href="/Tema/ListarTemasParaFornecedor/@Model.FornecedorId" class="btn btn-primary">Voltar</a>
         </div>
 
     </div>

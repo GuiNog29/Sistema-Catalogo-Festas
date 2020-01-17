@@ -71,7 +71,7 @@ namespace SistemaFesta.Controllers
                 }
 
                 temaDAO.Adicionar(tema);
-                return RedirectToAction("ListarTemasParaPessoaJuridica", "Tema");
+                return RedirectToAction("ListarTemasParaFornecedor", "Tema");
             }
             else
             {
@@ -137,7 +137,7 @@ namespace SistemaFesta.Controllers
         public ActionResult RemoverTema(Tema tema)
         {
             temaDAO.Remover(tema);
-            return RedirectToAction("ListarTemasParaPessoaJuridica", "Tema");
+            return RedirectToAction("ListarTemasParaFornecedor", "Tema");
         }
 
 
@@ -146,15 +146,15 @@ namespace SistemaFesta.Controllers
 
         //FUNÇÃO PARA LISTAR OS TEMAS CADASTRADOS PELO FORNECEDOR
         [AutorizacaoFornecedorFilter]
-        public ActionResult ListarTemasParaPessoaJuridica()
+        public ActionResult ListarTemasParaFornecedor()
         {
-            var pj = (Fornecedor)Session["usuarioJuridicoLogado"];
+            var pj = (Fornecedor)Session["usuarioFornecedorLogado"];
             IList<Tema> temas = temaDAO.ListaDoFornecedor(pj.Id);
             return View(temas);
         }
 
         //FUNÇÃO PARA LISTAR TEMAS CADASTRADORS PELO FORNECEDOR SELECIONADO PARA CLIENTE
-        public ActionResult ListarTemasParaPessoaFisica(int id)
+        public ActionResult ListarTemasParaCliente(int id)
         {
             var pessoa = fornecedorDAO.BuscaPorId(id);
             if (pessoa.ControleAcesso != false)

@@ -33,7 +33,7 @@ namespace SistemaFesta.Controllers
             {
                 if(fornecedor.ControleAcesso)
                 {
-                    Session["usuarioJuridicoLogado"] = fornecedor;
+                    Session["usuarioFornecedorLogado"] = fornecedor;
                     Session.Timeout = 10000;
                     return RedirectToAction("ListarTemasParaFornecedor", "Tema");
                 }

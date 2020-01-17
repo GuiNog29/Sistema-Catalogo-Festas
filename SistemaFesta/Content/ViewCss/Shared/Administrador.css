@@ -67,3 +67,8 @@ h4 {
 .controle-acesso {
     text-align: center;
 }
+
+.bg-gradient-primary {
+    background-color: #30336b;
+    background-size: cover
+}
